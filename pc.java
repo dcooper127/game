@@ -1,8 +1,10 @@
 public class pc extends character
 {
-	name = "Player Character";
-	health = 100;
-
-	str = 10;
-	
+	public pc()
+	{
+		setName("Player Character");
+		setHealth(100);
+		
+		setStr(10);
+	}	
 }
